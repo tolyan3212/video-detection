@@ -43,7 +43,7 @@ def main():
     args = parser.parse_args()
 
     # Initialize model
-    model = YOLO('yolo12n.pt')
+    model = YOLO('yolo12x.pt')
 
     # Open the input video
     cap = cv2.VideoCapture(args.filename)
